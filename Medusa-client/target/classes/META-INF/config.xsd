@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.shiwei.wiki/config"
+        xmlns:tns="http://www.shiwei.wiki/config" elementFormDefault="qualified">
+
+    <element name="config">
+        <complexType>
+            <attribute name="id" type="string"/>
+            <attribute name="appName" type="string"/>
+            <attribute name="zkAddress" type="string"/>
+            <attribute name="zkPort" type="string"/>
+            <attribute name="env" type="string"/>
+        </complexType>
+    </element>
+</schema>
